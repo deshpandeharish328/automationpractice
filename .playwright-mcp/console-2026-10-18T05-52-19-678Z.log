@@ -1,0 +1,11 @@
+[    2505ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ http://www.automationpractice.pl/favicon.ico:0
+[   10573ms] [ERROR] Access to XMLHttpRequest at 'https://ipv6.whatismyip.akamai.com/' from origin 'https://zi2.yrdentraffic.cc' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://zi2.yrdentraffic.cc/?3aeb93627d9658a42878f7:0
+[   10574ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://ipv6.whatismyip.akamai.com/:0
+[   10642ms] [ERROR] Access to XMLHttpRequest at 'https://ipv4.whatismyip.akamai.com/' from origin 'https://zi2.yrdentraffic.cc' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://zi2.yrdentraffic.cc/?3aeb93627d9658a42878f7:0
+[   10645ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://ipv4.whatismyip.akamai.com/:0
+[   11396ms] [ERROR] Access to XMLHttpRequest at 'https://ipv4.seeip.org/' from origin 'https://zi2.yrdentraffic.cc' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://zi2.yrdentraffic.cc/?3aeb93627d9658a42878f7:0
+[   11397ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://ipv4.seeip.org/:0
+[   11679ms] [ERROR] Access to XMLHttpRequest at 'https://ipv6.seeip.org/' from origin 'https://zi2.yrdentraffic.cc' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://zi2.yrdentraffic.cc/?3aeb93627d9658a42878f7:0
+[   11679ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://ipv6.seeip.org/:0
+[   31574ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ https://ipv4.ident.me/:0
+[   31767ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ https://ipv6.ident.me/:0
