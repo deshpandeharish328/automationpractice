@@ -1,0 +1,606 @@
+- generic [active] [ref=f24e1]:
+  - generic:
+    - banner:
+      - generic:
+        - generic:
+          - heading "Sauce Demo" [level=1]
+    - generic:
+      - generic:
+        - generic:
+          - main
+      - generic:
+        - generic:
+          - complementary:
+            - generic:
+              - heading [level=2]
+  - generic [ref=f24e2]:
+    - generic [ref=f24e4]:
+      - status [ref=f24e5]
+      - generic [ref=f24e6]:
+        - generic [ref=f24e7]:
+          - link "Skip to content" [ref=f24e8] [cursor=pointer]:
+            - /url: "#checkout-main"
+          - generic [ref=f24e9]:
+            - banner [ref=f24e10]:
+              - generic [ref=f24e15]:
+                - link "Sauce Demo Navigate to Online Store" [ref=f24e17] [cursor=pointer]:
+                  - /url: https://sauce-demo.myshopify.com
+                  - generic: Sauce Demo
+                  - generic [ref=f24e18]: Navigate to Online Store
+                - link "Cart" [ref=f24e20] [cursor=pointer]:
+                  - /url: https://sauce-demo.myshopify.com/cart
+            - generic [ref=f24e24]:
+              - generic [ref=f24e26]:
+                - main [ref=f24e27]:
+                  - heading "Sauce Demo Checkout" [level=1] [ref=f24e28]
+                  - generic [ref=f24e30]:
+                    - status [ref=f24e31]
+                    - generic [ref=f24e32]:
+                      - generic [ref=f24e33]:
+                        - region "Contact" [ref=f24e34]:
+                          - generic [ref=f24e38]:
+                            - generic [ref=f24e39]:
+                              - heading "Contact" [level=2] [ref=f24e40]
+                              - link "Sign in" [ref=f24e41] [cursor=pointer]:
+                                - /url: https://sauce-demo.myshopify.com/account/login?checkout_url=%2Fcheckouts%2Fcn%2FhWNI6m1zvXm8fuwWNj7pQMMO%2Fen-in%3F_r%3DAQABt6pZA2Kvv3QwyGTnFM6Vdyp1Ydgb6ovFtoEcUFBskFZss4mv%26company_location_id%26locale%3Den-IN
+                            - generic [ref=f24e43]:
+                              - generic [ref=f24e48]:
+                                - generic: Email
+                                - textbox "Email" [ref=f24e49]
+                                - generic [ref=f24e51]:
+                                  - img "More information about how your contact info is used" [ref=f24e53]
+                                  - tooltip [aria-hidden] [ref=f24e56]: Used for your order confirmation and cart reminders
+                              - generic [ref=f24e59]:
+                                - checkbox "Email me with news and offers" [checked] [ref=f24e61] [cursor=pointer]
+                                - generic [ref=f24e62] [cursor=pointer]: Email me with news and offers
+                        - group [ref=f24e66]:
+                          - generic [ref=f24e67]:
+                            - heading "Delivery" [level=2] [ref=f24e69]
+                            - generic [ref=f24e74]:
+                              - generic [ref=f24e78]:
+                                - generic [ref=f24e79]:
+                                  - generic [ref=f24e83]:
+                                    - generic: Country/Region
+                                    - combobox "Country/Region" [ref=f24e84]:
+                                      - option "Afghanistan"
+                                      - option "Åland Islands"
+                                      - option "Albania"
+                                      - option "Algeria"
+                                      - option "Andorra"
+                                      - option "Angola"
+                                      - option "Anguilla"
+                                      - option "Antigua & Barbuda"
+                                      - option "Argentina"
+                                      - option "Armenia"
+                                      - option "Aruba"
+                                      - option "Ascension Island"
+                                      - option "Australia"
+                                      - option "Austria"
+                                      - option "Azerbaijan"
+                                      - option "Bahamas"
+                                      - option "Bahrain"
+                                      - option "Bangladesh"
+                                      - option "Barbados"
+                                      - option "Belarus"
+                                      - option "Belgium"
+                                      - option "Belize"
+                                      - option "Benin"
+                                      - option "Bermuda"
+                                      - option "Bhutan"
+                                      - option "Bolivia"
+                                      - option "Bosnia & Herzegovina"
+                                      - option "Botswana"
+                                      - option "Brazil"
+                                      - option "British Indian Ocean Territory"
+                                      - option "British Virgin Islands"
+                                      - option "Brunei"
+                                      - option "Bulgaria"
+                                      - option "Burkina Faso"
+                                      - option "Burundi"
+                                      - option "Cambodia"
+                                      - option "Cameroon"
+                                      - option "Canada"
+                                      - option "Cape Verde"
+                                      - option "Caribbean Netherlands"
+                                      - option "Cayman Islands"
+                                      - option "Central African Republic"
+                                      - option "Chad"
+                                      - option "Chile"
+                                      - option "China"
+                                      - option "Christmas Island"
+                                      - option "Cocos (Keeling) Islands"
+                                      - option "Colombia"
+                                      - option "Comoros"
+                                      - option "Congo - Brazzaville"
+                                      - option "Congo - Kinshasa"
+                                      - option "Cook Islands"
+                                      - option "Costa Rica"
+                                      - option "Croatia"
+                                      - option "Curaçao"
+                                      - option "Cyprus"
+                                      - option "Czechia"
+                                      - option "Côte d’Ivoire"
+                                      - option "Denmark"
+                                      - option "Djibouti"
+                                      - option "Dominica"
+                                      - option "Dominican Republic"
+                                      - option "Ecuador"
+                                      - option "Egypt"
+                                      - option "El Salvador"
+                                      - option "Equatorial Guinea"
+                                      - option "Eritrea"
+                                      - option "Estonia"
+                                      - option "Eswatini"
+                                      - option "Ethiopia"
+                                      - option "Falkland Islands"
+                                      - option "Faroe Islands"
+                                      - option "Fiji"
+                                      - option "Finland"
+                                      - option "France"
+                                      - option "French Guiana"
+                                      - option "French Polynesia"
+                                      - option "French Southern Territories"
+                                      - option "Gabon"
+                                      - option "Gambia"
+                                      - option "Georgia"
+                                      - option "Germany"
+                                      - option "Ghana"
+                                      - option "Gibraltar"
+                                      - option "Greece"
+                                      - option "Greenland"
+                                      - option "Grenada"
+                                      - option "Guadeloupe"
+                                      - option "Guatemala"
+                                      - option "Guernsey"
+                                      - option "Guinea"
+                                      - option "Guinea-Bissau"
+                                      - option "Guyana"
+                                      - option "Haiti"
+                                      - option "Honduras"
+                                      - option "Hong Kong SAR"
+                                      - option "Hungary"
+                                      - option "Iceland"
+                                      - option "India" [selected]
+                                      - option "Indonesia"
+                                      - option "Iraq"
+                                      - option "Ireland"
+                                      - option "Isle of Man"
+                                      - option "Israel"
+                                      - option "Italy"
+                                      - option "Jamaica"
+                                      - option "Japan"
+                                      - option "Jersey"
+                                      - option "Jordan"
+                                      - option "Kazakhstan"
+                                      - option "Kenya"
+                                      - option "Kiribati"
+                                      - option "Kosovo"
+                                      - option "Kuwait"
+                                      - option "Kyrgyzstan"
+                                      - option "Laos"
+                                      - option "Latvia"
+                                      - option "Lebanon"
+                                      - option "Lesotho"
+                                      - option "Liberia"
+                                      - option "Libya"
+                                      - option "Liechtenstein"
+                                      - option "Lithuania"
+                                      - option "Luxembourg"
+                                      - option "Macao SAR"
+                                      - option "Madagascar"
+                                      - option "Malawi"
+                                      - option "Malaysia"
+                                      - option "Maldives"
+                                      - option "Mali"
+                                      - option "Malta"
+                                      - option "Martinique"
+                                      - option "Mauritania"
+                                      - option "Mauritius"
+                                      - option "Mayotte"
+                                      - option "Mexico"
+                                      - option "Moldova"
+                                      - option "Monaco"
+                                      - option "Mongolia"
+                                      - option "Montenegro"
+                                      - option "Montserrat"
+                                      - option "Morocco"
+                                      - option "Mozambique"
+                                      - option "Myanmar (Burma)"
+                                      - option "Namibia"
+                                      - option "Nauru"
+                                      - option "Nepal"
+                                      - option "Netherlands"
+                                      - option "New Caledonia"
+                                      - option "New Zealand"
+                                      - option "Nicaragua"
+                                      - option "Niger"
+                                      - option "Nigeria"
+                                      - option "Niue"
+                                      - option "Norfolk Island"
+                                      - option "North Macedonia"
+                                      - option "Norway"
+                                      - option "Oman"
+                                      - option "Pakistan"
+                                      - option "Palestinian Territories"
+                                      - option "Panama"
+                                      - option "Papua New Guinea"
+                                      - option "Paraguay"
+                                      - option "Peru"
+                                      - option "Philippines"
+                                      - option "Pitcairn Islands"
+                                      - option "Poland"
+                                      - option "Portugal"
+                                      - option "Qatar"
+                                      - option "Réunion"
+                                      - option "Romania"
+                                      - option "Russia"
+                                      - option "Rwanda"
+                                      - option "Samoa"
+                                      - option "San Marino"
+                                      - option "São Tomé & Príncipe"
+                                      - option "Saudi Arabia"
+                                      - option "Senegal"
+                                      - option "Serbia"
+                                      - option "Seychelles"
+                                      - option "Sierra Leone"
+                                      - option "Singapore"
+                                      - option "Sint Maarten"
+                                      - option "Slovakia"
+                                      - option "Slovenia"
+                                      - option "Solomon Islands"
+                                      - option "Somalia"
+                                      - option "South Africa"
+                                      - option "South Georgia & South Sandwich Islands"
+                                      - option "South Korea"
+                                      - option "South Sudan"
+                                      - option "Spain"
+                                      - option "Sri Lanka"
+                                      - option "St. Barthélemy"
+                                      - option "St. Helena"
+                                      - option "St. Kitts & Nevis"
+                                      - option "St. Lucia"
+                                      - option "St. Martin"
+                                      - option "St. Pierre & Miquelon"
+                                      - option "St. Vincent & Grenadines"
+                                      - option "Sudan"
+                                      - option "Suriname"
+                                      - option "Svalbard & Jan Mayen"
+                                      - option "Sweden"
+                                      - option "Switzerland"
+                                      - option "Taiwan"
+                                      - option "Tajikistan"
+                                      - option "Tanzania"
+                                      - option "Thailand"
+                                      - option "Timor-Leste"
+                                      - option "Togo"
+                                      - option "Tokelau"
+                                      - option "Tonga"
+                                      - option "Trinidad & Tobago"
+                                      - option "Tristan da Cunha"
+                                      - option "Tunisia"
+                                      - option "Türkiye"
+                                      - option "Turkmenistan"
+                                      - option "Turks & Caicos Islands"
+                                      - option "Tuvalu"
+                                      - option "US Outlying Islands"
+                                      - option "Uganda"
+                                      - option "Ukraine"
+                                      - option "United Arab Emirates"
+                                      - option "United Kingdom"
+                                      - option "United States"
+                                      - option "Uruguay"
+                                      - option "Uzbekistan"
+                                      - option "Vanuatu"
+                                      - option "Vatican City"
+                                      - option "Venezuela"
+                                      - option "Vietnam"
+                                      - option "Wallis & Futuna"
+                                      - option "Western Sahara"
+                                      - option "Yemen"
+                                      - option "Zambia"
+                                      - option "Zimbabwe"
+                                  - generic [ref=f24e85]:
+                                    - generic [ref=f24e87]:
+                                      - generic: First name (optional)
+                                      - textbox "First name (optional)" [ref=f24e88]
+                                    - generic [ref=f24e90]:
+                                      - generic: Last name
+                                      - textbox "Last name" [ref=f24e91]
+                                  - generic [ref=f24e94]:
+                                    - generic: Company (optional)
+                                    - textbox "Company (optional)" [ref=f24e95]
+                                  - generic [ref=f24e101]:
+                                    - generic: Address
+                                    - combobox "Address" [ref=f24e102]
+                                  - generic [ref=f24e109]:
+                                    - generic: Apartment, suite, etc. (optional)
+                                    - textbox "Apartment, suite, etc. (optional)" [ref=f24e110]
+                                  - generic [ref=f24e111]:
+                                    - generic [ref=f24e113]:
+                                      - generic: City
+                                      - textbox "City" [ref=f24e114]
+                                    - generic [ref=f24e117]:
+                                      - generic: State
+                                      - combobox "State" [ref=f24e118]:
+                                        - option "Andaman and Nicobar Islands"
+                                        - option "Andhra Pradesh"
+                                        - option "Arunachal Pradesh"
+                                        - option "Assam"
+                                        - option "Bihar"
+                                        - option "Chandigarh"
+                                        - option "Chhattisgarh"
+                                        - option "Dadra and Nagar Haveli"
+                                        - option "Daman and Diu"
+                                        - option "Delhi"
+                                        - option "Goa"
+                                        - option "Gujarat"
+                                        - option "Haryana"
+                                        - option "Himachal Pradesh"
+                                        - option "Jammu and Kashmir"
+                                        - option "Jharkhand"
+                                        - option "Karnataka"
+                                        - option "Kerala"
+                                        - option "Ladakh"
+                                        - option "Lakshadweep"
+                                        - option "Madhya Pradesh"
+                                        - option "Maharashtra"
+                                        - option "Manipur"
+                                        - option "Meghalaya"
+                                        - option "Mizoram"
+                                        - option "Nagaland"
+                                        - option "Odisha"
+                                        - option "Puducherry"
+                                        - option "Punjab"
+                                        - option "Rajasthan"
+                                        - option "Sikkim"
+                                        - option "Tamil Nadu"
+                                        - option "Telangana" [selected]
+                                        - option "Tripura"
+                                        - option "Uttar Pradesh"
+                                        - option "Uttarakhand"
+                                        - option "West Bengal"
+                                    - generic [ref=f24e121]:
+                                      - generic: PIN code
+                                      - textbox "PIN code" [ref=f24e122]
+                                  - generic [ref=f24e125]:
+                                    - generic: Phone (optional)
+                                    - textbox "Phone (optional)" [ref=f24e126]
+                                    - generic [ref=f24e128]:
+                                      - img "More information about Phone" [ref=f24e129]
+                                      - tooltip [aria-hidden] [ref=f24e132]: In case we need to contact you about your order
+                                  - generic [ref=f24e134]:
+                                    - checkbox "Save this information for next time" [ref=f24e136] [cursor=pointer]
+                                    - generic [ref=f24e137] [cursor=pointer]: Save this information for next time
+                                - generic [ref=f24e138]:
+                                  - textbox [aria-hidden] [ref=f24e139]
+                                  - textbox [aria-hidden] [ref=f24e140]
+                                  - textbox [aria-hidden] [ref=f24e141]
+                                  - textbox [aria-hidden] [ref=f24e142]
+                                  - textbox [aria-hidden] [ref=f24e143]
+                                  - textbox [aria-hidden] [ref=f24e144]
+                                  - textbox [aria-hidden] [ref=f24e145]: IN
+                                  - textbox [aria-hidden] [ref=f24e146]: TS
+                                  - textbox [aria-hidden] [ref=f24e147]: TS
+                                  - textbox [aria-hidden] [ref=f24e148]: TS
+                                  - textbox [aria-hidden] [ref=f24e149]
+                                  - textbox [aria-hidden] [ref=f24e150]
+                              - generic [ref=f24e151]:
+                                - heading "Shipping method" [level=2] [ref=f24e152]
+                                - paragraph [ref=f24e157]: Enter your shipping address to view available shipping methods.
+                        - region "Payment" [ref=f24e159]:
+                          - group [ref=f24e163]:
+                            - generic [ref=f24e164]:
+                              - heading "Payment" [level=2] [ref=f24e167]
+                              - paragraph [ref=f24e169]: All transactions are secure and encrypted.
+                            - generic [ref=f24e171]:
+                              - generic [ref=f24e172]:
+                                - group [ref=f24e178]:
+                                  - generic [ref=f24e180]:
+                                    - generic [ref=f24e181]:
+                                      - heading [level=3] [ref=f24e183]:
+                                        - strong [ref=f24e184]: Credit card
+                                      - generic [ref=f24e187]:
+                                        - status [ref=f24e188]
+                                        - button "Test Payment Gateway" [ref=f24e191] [cursor=pointer]:
+                                          - img "Test Payment Gateway" [ref=f24e193]
+                                    - generic [ref=f24e200]:
+                                      - generic [ref=f24e201]:
+                                        - heading "Testing instruction" [level=4] [ref=f24e202]
+                                        - generic [ref=f24e203]:
+                                          - paragraph [ref=f24e204]: "Use these values to test your checkout:"
+                                          - list [ref=f24e206]:
+                                            - listitem [ref=f24e207]:
+                                              - strong [ref=f24e208]: "1"
+                                              - text: to simulate an approved transaction
+                                            - listitem [ref=f24e209]:
+                                              - strong [ref=f24e210]: "2"
+                                              - text: to simulate a declined transaction
+                                            - listitem [ref=f24e211]:
+                                              - strong [ref=f24e212]: "3"
+                                              - text: to simulate a gateway failure
+                                          - paragraph [ref=f24e213]: Use any future expiration date and any 3-digit security code.
+                                        - link "Get support" [ref=f24e215] [cursor=pointer]:
+                                          - /url: https://help.shopify.com/en/manual/checkout-settings/test-orders/payments-test-mode#test-payment-gateway
+                                      - generic [ref=f24e218]:
+                                        - generic [ref=f24e221]:
+                                          - generic: Card number
+                                          - iframe [ref=f24e224]:
+                                            - generic [ref=f26e2]:
+                                              - generic [ref=f26e3]:
+                                                - generic [ref=f26e4]: Card number
+                                                - textbox "Card number" [ref=f26e5]
+                                              - generic [aria-hidden] [ref=f26e8]: Name on card
+                                              - textbox [aria-hidden] [ref=f26e9]
+                                              - generic [aria-hidden] [ref=f26e10]: Expiry month
+                                              - textbox [aria-hidden] [ref=f26e11]
+                                              - generic [aria-hidden] [ref=f26e12]: Expiry year
+                                              - textbox [aria-hidden] [ref=f26e13]
+                                              - generic [aria-hidden] [ref=f26e14]: Expiry date (MM / YY)
+                                              - textbox [aria-hidden] [ref=f26e15]
+                                              - generic [aria-hidden] [ref=f26e16]: Security code
+                                              - textbox [aria-hidden] [ref=f26e17]
+                                              - generic [aria-hidden] [ref=f26e18]: Issue date (MM / YY)
+                                              - textbox [aria-hidden] [ref=f26e19]
+                                              - generic [aria-hidden] [ref=f26e20]: Issue number
+                                              - textbox [aria-hidden] [ref=f26e21]
+                                              - button [aria-hidden] [ref=f26e22]
+                                        - generic [ref=f24e229]:
+                                          - generic [ref=f24e232]:
+                                            - generic: Expiration date (MM / YY)
+                                            - iframe [ref=f24e235]:
+                                              - generic [ref=f27e2]:
+                                                - generic [aria-hidden] [ref=f27e3]: Credit Card Number
+                                                - textbox [aria-hidden] [ref=f27e4]
+                                                - generic [aria-hidden] [ref=f27e5]: Name on card
+                                                - textbox [aria-hidden] [ref=f27e6]
+                                                - generic [aria-hidden] [ref=f27e7]: Expiry month
+                                                - textbox [aria-hidden] [ref=f27e8]
+                                                - generic [aria-hidden] [ref=f27e9]: Expiry year
+                                                - textbox [aria-hidden] [ref=f27e10]
+                                                - generic [ref=f27e11]:
+                                                  - generic [ref=f27e12]: Expiration date (MM / YY)
+                                                  - textbox "Expiration date (MM / YY)" [ref=f27e13]
+                                                - generic [aria-hidden] [ref=f27e16]: Security code
+                                                - textbox [aria-hidden] [ref=f27e17]
+                                                - generic [aria-hidden] [ref=f27e18]: Issue date (MM / YY)
+                                                - textbox [aria-hidden] [ref=f27e19]
+                                                - generic [aria-hidden] [ref=f27e20]: Issue number
+                                                - textbox [aria-hidden] [ref=f27e21]
+                                                - button [aria-hidden] [ref=f27e22]
+                                          - generic [ref=f24e238]:
+                                            - generic: Security code
+                                            - generic [ref=f24e239]:
+                                              - iframe [ref=f24e241]:
+                                                - generic [ref=f28e2]:
+                                                  - generic [aria-hidden] [ref=f28e3]: Credit Card Number
+                                                  - textbox [aria-hidden] [ref=f28e4]
+                                                  - generic [aria-hidden] [ref=f28e5]: Name on card
+                                                  - textbox [aria-hidden] [ref=f28e6]
+                                                  - generic [aria-hidden] [ref=f28e7]: Expiry month
+                                                  - textbox [aria-hidden] [ref=f28e8]
+                                                  - generic [aria-hidden] [ref=f28e9]: Expiry year
+                                                  - textbox [aria-hidden] [ref=f28e10]
+                                                  - generic [aria-hidden] [ref=f28e11]: Expiry date (MM / YY)
+                                                  - textbox [aria-hidden] [ref=f28e12]
+                                                  - generic [ref=f28e13]:
+                                                    - generic [ref=f28e14]: Security code
+                                                    - textbox "Security code" [ref=f28e15]
+                                                  - generic [aria-hidden] [ref=f28e18]: Issue date (MM / YY)
+                                                  - textbox [aria-hidden] [ref=f28e19]
+                                                  - generic [aria-hidden] [ref=f28e20]: Issue number
+                                                  - textbox [aria-hidden] [ref=f28e21]
+                                                  - button [aria-hidden] [ref=f28e22]
+                                              - generic [ref=f24e242]:
+                                                - img "More information about Security code" [ref=f24e243]
+                                                - tooltip [aria-hidden] [ref=f24e246]: 3-digit security code usually found on the back of your card. American Express cards have a 4-digit code located on the front.
+                                        - generic [ref=f24e249]:
+                                          - generic: Name on card
+                                          - iframe [ref=f24e252]:
+                                            - generic [ref=f31e2]:
+                                              - generic [aria-hidden] [ref=f31e3]: Credit Card Number
+                                              - textbox [aria-hidden] [ref=f31e4]
+                                              - generic [ref=f31e5]:
+                                                - generic [ref=f31e6]: Name on card
+                                                - textbox "Name on card" [ref=f31e7]
+                                              - generic [aria-hidden] [ref=f31e10]: Expiry month
+                                              - textbox [aria-hidden] [ref=f31e11]
+                                              - generic [aria-hidden] [ref=f31e12]: Expiry year
+                                              - textbox [aria-hidden] [ref=f31e13]
+                                              - generic [aria-hidden] [ref=f31e14]: Expiry date (MM / YY)
+                                              - textbox [aria-hidden] [ref=f31e15]
+                                              - generic [aria-hidden] [ref=f31e16]: Security code
+                                              - textbox [aria-hidden] [ref=f31e17]
+                                              - generic [aria-hidden] [ref=f31e18]: Issue date (MM / YY)
+                                              - textbox [aria-hidden] [ref=f31e19]
+                                              - generic [aria-hidden] [ref=f31e20]: Issue number
+                                              - textbox [aria-hidden] [ref=f31e21]
+                                              - button [aria-hidden] [ref=f31e22]
+                                      - generic [ref=f24e255]:
+                                        - checkbox "Use shipping address as billing address" [checked] [ref=f24e257] [cursor=pointer]
+                                        - generic [ref=f24e258] [cursor=pointer]: Use shipping address as billing address
+                                - textbox [aria-hidden] [ref=f24e260]
+                              - button "Add discount" [ref=f24e261] [cursor=pointer]
+                          - generic [ref=f24e268]:
+                            - heading "Finalize order" [level=2] [ref=f24e269]
+                            - button "Pay now £60.00" [ref=f24e273] [cursor=pointer]:
+                              - generic:
+                                - generic:
+                                  - generic: Pay now
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - generic "£60.00"
+                      - button [aria-hidden] [ref=f24e275] [cursor=pointer]: Submit
+                - contentinfo [ref=f24e276]:
+                  - list [ref=f24e280]:
+                    - listitem [ref=f24e281]:
+                      - button "Terms of service" [ref=f24e282] [cursor=pointer]
+              - complementary [ref=f24e285]:
+                - generic [ref=f24e289]:
+                  - heading "Order summary" [level=2] [ref=f24e290]
+                  - generic [ref=f24e293]:
+                    - region "Shopping cart" [ref=f24e294]:
+                      - heading "Shopping cart" [level=3] [ref=f24e296]
+                      - table "Shopping cart" [ref=f24e297]:
+                        - rowgroup [ref=f24e298]:
+                          - row "Product image Description Quantity Price":
+                            - columnheader "Product image" [ref=f24e299]
+                            - columnheader "Description" [ref=f24e300]
+                            - columnheader "Quantity" [ref=f24e301]
+                            - columnheader "Price" [ref=f24e302]
+                        - rowgroup [ref=f24e303]:
+                          - row "Quantity 1 Noir jacket S / Blue 1 £60.00" [ref=f24e304]:
+                            - cell "Quantity 1" [ref=f24e305]:
+                              - generic [ref=f24e308]:
+                                - generic [ref=f24e309]: Quantity
+                                - text: "1"
+                            - cell [ref=f24e310]:
+                              - generic [ref=f24e311]:
+                                - paragraph [ref=f24e312]: Noir jacket
+                                - paragraph [ref=f24e314]: S / Blue
+                            - cell "1"
+                            - cell "£60.00" [ref=f24e316]
+                    - generic [aria-hidden]:
+                      - generic: Scroll for more items
+                  - generic [ref=f24e321]:
+                    - heading "Discount" [level=3] [ref=f24e322]
+                    - generic [ref=f24e323]:
+                      - generic [ref=f24e326]:
+                        - generic [ref=f24e329]:
+                          - generic: Discount code
+                          - textbox "Discount code" [ref=f24e330]
+                          - generic [ref=f24e331]:
+                            - button "Apply Discount Code" [disabled]:
+                              - generic: Apply
+                        - button [aria-hidden] [ref=f24e333] [cursor=pointer]: Submit
+                      - button "Back to finalize order" [ref=f24e334] [cursor=pointer]
+                  - generic [ref=f24e335]:
+                    - heading "Cost summary" [level=3] [ref=f24e337]
+                    - table "Cost summary" [ref=f24e338]:
+                      - rowgroup [ref=f24e339]:
+                        - row [ref=f24e340]:
+                          - columnheader "Item" [ref=f24e341]
+                          - columnheader "Value" [ref=f24e342]
+                      - rowgroup [ref=f24e343]:
+                        - row [ref=f24e344]:
+                          - rowheader "Subtotal" [ref=f24e345]
+                          - cell "£60.00" [ref=f24e346]
+                        - row [ref=f24e347]:
+                          - rowheader "Shipping" [ref=f24e348]
+                          - cell "Enter shipping address" [ref=f24e351]
+                        - row [ref=f24e352]:
+                          - rowheader [ref=f24e353]:
+                            - strong [ref=f24e354]: Total
+                          - cell "GBP £60.00" [ref=f24e355]:
+                            - generic [ref=f24e356]:
+                              - generic [ref=f24e357]: GBP
+                              - strong [ref=f24e358]:
+                                - generic "£60.00" [ref=f24e360]
+        - generic:
+          - progressbar
+    - generic [aria-hidden] [ref=f24e361]: Opens external website in a new window.
+    - generic [aria-hidden] [ref=f24e362]: Opens in a new window.
+    - generic [aria-hidden] [ref=f24e363]: Opens external website.
+    - status [ref=f24e364]
+    - alert [ref=f24e365]
